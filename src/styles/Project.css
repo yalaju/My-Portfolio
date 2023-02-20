@@ -1,0 +1,69 @@
+.projectbody {
+  background-color: rgb(0, 0, 0);
+
+  padding: 15% 15%;
+}
+
+.projectline {
+  border: 2px solid red;
+  width: 15%;
+  margin-top: -12px;
+}
+
+@media (max-width: 414px) {
+  .projectline {
+    width: 55%;
+  }
+}
+
+.project {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 4% 0%;
+}
+@media (max-width: 881px) {
+  .project {
+    flex-direction: column;
+    padding-bottom: 20%;
+  }
+}
+
+.proimg1 img {
+  border-radius: 25px;
+}
+
+.proimg1 img:hover {
+    width: 90%;
+  color: rgb(255 87 87);
+  border: 10px solid rgb(255, 0, 0);
+  /* background-color: green; */
+}
+
+
+.proimg2 img {
+  border-radius: 20px;
+}
+
+
+.proimg2 img:hover {
+    width: 90%;
+  color: rgb(255 87 87);
+  border: 10px solid rgb(255, 0, 0);
+}
+
+
+
+@media (max-width: 750px) {
+  .proimg1 {
+    padding-bottom: 15%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 881px) {
+  .proimg1 img {
+    width: 90%;
+    padding-bottom: 15%;
+  }
+}

@@ -1,0 +1,75 @@
+.about-me {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15% 15%;
+}
+
+@media (max-width: 945px) {
+  .about-me {
+    grid-template-columns: 1fr;
+    /* background-image: url(../images/Mydarkimg.jpeg); */
+    background-repeat: no-repeat;
+    padding-bottom: 60%;
+    padding: 5% 5%;
+    padding-top: 30%;
+    background-color: rgb(22, 21, 21);
+  }
+}
+
+.line {
+  border: 2px solid red;
+  width: 30%;
+  margin-top: -12px;
+  /* margin-left: 40%; */
+  /* padding-left: 10%; */
+}
+.aboutimg {
+  padding-top: 90px;
+  background-image: url("../images/NewLaptop.jpeg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+  background-size: 90%;
+  border: 15px solid rgb(108, 16, 16);
+  border-radius: 30px;
+
+  /* border: 20px solid red; */
+  /* border-radius: 40px; */
+}
+
+@media (max-width: 946px) {
+  .aboutimg {
+    /* grid-template-columns: 1fr; */
+    /* background-color: black; */
+    /* display: none; */
+
+
+    /* background-repeat: no-repeat;
+    background-image: url(../images/NewLaptop.jpeg);
+    padding-bottom: 100%; */
+  }
+} 
+
+@media (max-width: 771px) {
+  .aboutimg {
+    grid-template-columns: 1fr;
+    background-image: url(../images/Mydarkimg.jpeg);
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    /* background-color: black; */
+  }
+}
+
+.about-cont {
+  text-align: start;
+  padding-right: 20%;
+}
+
+
+@media (max-width: 946px) {
+  .about-cont {
+    text-align: start;
+    /* padding-left: 15%; */
+    font-size: 22px;
+  }
+}

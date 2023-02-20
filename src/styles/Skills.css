@@ -1,0 +1,87 @@
+.skillsbody {
+  background-color: rgba(0, 0, 0, 0.951);
+  /* background-color: rgba(0, 0, 0, 0.88); */
+  padding: 10% 15% 15% 15%;
+  
+}
+
+.skillsline {
+  /* border: 2px solid red;
+  width: 11%;
+  margin-top: -1%; */
+
+  border: 2px solid red;
+    width: 15%;
+    margin-top: -12px;
+}
+
+@media (max-width: 414px) {
+  .skillsline { 
+    width: 30%;
+  }
+}
+
+
+
+.skillsflex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+  color: white;
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 10%;
+}
+
+@media (max-width: 1124px) {
+  .skillsflex { 
+    /* flex-direction: column;
+    gap: 30%; */
+    display: grid;
+    /* grid-column:auto; */
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+}
+
+.skillsflex1 {
+  display: flex;
+  /* padding-top: 20px; */
+  justify-content: space-around;
+  /* border: 10px solid black;  */
+  /* border-radius: 7%; */
+  /* border: 5px solid black; */
+  /* padding: 20px  20px; */
+  padding-bottom: -20px;
+}
+
+.skillsflex1 p {
+  margin-top: 15%;
+}
+
+.skillsflex2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillsflex2 p {
+  margin-top: 15%;
+}
+
+.skillsflex3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillsflex3 p {
+  margin-top: 15%;
+}
+
+.skillsflex4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillsflex4 p {
+  margin-top: 15%;
+}
