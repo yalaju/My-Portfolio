@@ -34,7 +34,7 @@ const Projects = () => {
         </h2>
         <div className="project">
           <div className="proimg1">
-            <a href="https://astounding-cannoli-a5c073.netlify.app">
+            <a href="https://trad-express-project.vercel.app/">
               <img src={tred} alt="" width={"90%"} height={"109%"} />
             </a>
           </div>
@@ -49,10 +49,10 @@ const Projects = () => {
             <a href="https://rccg-tabernacle-of-god.vercel.app/index-2.html">
               <img src={rccg} alt="" width={"88%"} height={"109%"} />
             </a>
-          </div> 
+          </div>
           <div className="proimg2">
             <a href="https://fylo-zeta-five.vercel.app/">
-            <img src={foly} alt="" width={"88%"} height={"113%"} />
+              <img src={foly} alt="" width={"88%"} height={"113%"} />
             </a>
           </div>
         </div>

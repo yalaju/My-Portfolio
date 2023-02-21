@@ -41,7 +41,7 @@ const Futter = () => {
                   textAlign: "start",
                 }}
               >
-                yalaju Samuel <br />
+                Iyalaju Samuel <br />
               </h4>
               <p
                 style={{
@@ -50,7 +50,7 @@ const Futter = () => {
                   textAlign: "start",
                 }}
               >
-                Front-End Developer
+                A Full-Stack Developer
                 <br />
                 <br />
                 I am available for freelance, part-time or full-time
@@ -129,7 +129,7 @@ const Futter = () => {
                     style={{ textDecoration: "none" }}
                   >
                     <h2 style={{ color: "white", fontFamily: "-moz-initial" }}>
-                      Gitnkdin
+                      Github
                     </h2>
                   </a>
                   -

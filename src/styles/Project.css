@@ -4,6 +4,13 @@
   padding: 15% 15%;
 }
 
+@media (max-width: 414px) {
+  .projectbody { 
+      padding: 17% 15% 15% 15%;
+
+  }
+}
+
 .projectline {
   border: 2px solid red;
   width: 15%;
@@ -54,16 +61,17 @@
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 881px) {
+/* @media (max-width: 750px) { */
   .proimg1 {
-    padding-bottom: 15%;
+    padding-bottom: 25%;
     width: 100%;
   }
 }
 
 @media (max-width: 881px) {
   .proimg1 img {
-    width: 90%;
-    padding-bottom: 15%;
+    /* width: 90%; */
+    /* padding-bottom: 15%; */
   }
 }

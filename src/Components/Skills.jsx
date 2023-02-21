@@ -7,11 +7,9 @@ import github from '../images/github-11.webp'
 import git from '../images/git-11.webp'
 import boot from '../images/bootstrap 11.webp'
 import word from '../images/wordpress-11.webp'
-// import html from '../images/HTML.png'
-// import css from '../images/CSS.png'
-// import js from '../images/JAVASCRIPT2.png'
-// import react from '../images/REACT.png'
 import css from "../images/css222.webp";
+import rest2 from "../images/django_img_2.png"
+import phy from "../images/python_img_2.jpg"
 
 const Skills = () => {
   return (
@@ -39,7 +37,7 @@ const Skills = () => {
 
       <div className="skillsflex">
         <div className="skillsflex1">
-          <img src={html} alt="" height={"70%"}  />
+          <img src={html} alt="" height={"70%"} />
           <p>HTML</p>
         </div>
 
@@ -59,10 +57,9 @@ const Skills = () => {
         </div>
       </div>
 
-      
       <div className="skillsflex">
-        <div className="skillsflex1">
-          <img src={boot} alt="" height={"70%"}  />
+        <div className="skillsflex1" style={{ paddingTop: "20px" }}>
+          <img src={boot} alt="" height={"70%"} />
           <p>bootstrap</p>
         </div>
 
@@ -82,7 +79,52 @@ const Skills = () => {
         </div>
       </div>
 
+      <div className="skillsflex">
+        <div
+          className="skillsflex2"
+          style={{
+            display: "flex",
+            gap: "-10%",
+            paddingBottom: "40px",
+            paddingTop: "20px",
+          }}
+        >
+          <img
+            src={rest2}
+            alt=""
+            height={"100%"}
+            width={"40%"}
+            style={{ borderRadius: "40px" }}
+          />
+          <div style={{ paddingTop: "`0px" }}>
+            <p>Django</p>
+          </div>
+        </div>
 
+        {/* <div className="skillsflex2">
+          <img src={github} alt="" height={"70%"} />
+          <p>github</p>
+        </div>*/}
+
+        {/* <div className="skillsflex3">
+          <img src={phy} alt="" height={"70%"} />
+          <p>git</p>
+        </div> */}
+
+        <div className="skillsflex3">
+          <img
+            src={phy}
+            alt=""
+            height={"70%"}
+            style={{ borderRadius: "20px" }}
+          />
+          <div
+            style={{ paddingTop: "8px", paddingLeft:"20px" }}
+          >
+            <p>phyton</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
