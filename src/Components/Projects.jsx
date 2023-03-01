@@ -34,39 +34,145 @@ const Projects = () => {
         </h2>
         <div className="project">
           <div className="proimg1">
-            <a href="https://trad-express-project.vercel.app/">
-              <img src={tred} alt="" width={"90%"} height={"109%"} />
+            <a
+              href="https://trad-express-project.vercel.app/"
+              target={`_blank`}
+            >
+              <img src={tred} alt="" width={"90%"} height={"99%"} />
             </a>
+
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                TradExpress_web
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a
+                  href="https://github.com/yalaju/TradExpress-Project"
+                  target={`_blank`}
+                >
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="proimg2">
-            <img src={task} alt="" width={"90%"} height={"113%"} />
+            <a href="https://task-duty.vercel.app/" target={`_blank`}>
+              <img src={task} alt="" width={"90%"} height={"100%"} />
+            </a>
+
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                TaskDuty_web
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a href="https://github.com/yalaju/TaskDuty" target={`_blank`}>
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="project">
           <div className="proimg1">
-            <a href="https://rccg-tabernacle-of-god.vercel.app/index-2.html">
-              <img src={rccg} alt="" width={"88%"} height={"109%"} />
+            <a
+              href="https://rccg-tabernacle-of-god.vercel.app/index-2.html"
+              target={`_blank`}
+            >
+              <img src={rccg} alt="" width={"88%"} height={"99%"} />
             </a>
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                RCCG_TOG_Web
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a
+                  href="https://github.com/yalaju/RCCG-TABERNACLE-OF-GOD."
+                  target={`_blank`}
+                >
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="proimg2">
-            <a href="https://fylo-zeta-five.vercel.app/">
-              <img src={foly} alt="" width={"88%"} height={"113%"} />
+            <a href="https://fylo-zeta-five.vercel.app/" target={`_blank`}>
+              <img src={foly} alt="" width={"88%"} height={"103%"} />
             </a>
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                Fylo_Web
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a href="https://github.com/yalaju/fylo" target={`_blank`}>
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="project">
           <div className="proimg1">
-            <a href="https://rock-paper-scissors-yalaju.vercel.app/">
-              <img src={rock} alt="" width={"88%"} height={"113%"} />
+            <a
+              href="https://rock-paper-scissors-yalaju.vercel.app/"
+              target={`_blank`}
+            >
+              <img src={rock} alt="" width={"88%"} height={"103%"} />
             </a>
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                Rock-Paper-Scissors_Game
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a
+                  href="https://github.com/yalaju/Rock-Paper-Scissors-"
+                  target={`_blank`}
+                >
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="proimg2">
-            <a href="https://random-advice-generator-hazel.vercel.app/">
-              <img src={advice} alt="" width={"88%"} height={"113%"} />
+            <a
+              href="https://random-advice-generator-hazel.vercel.app/"
+              target={`_blank`}
+            >
+              <img src={advice} alt="" width={"88%"} height={"103%"} />
             </a>
+            <div className="firstweb">
+              <h1
+                style={{ fontSize: "30px", color: "rgb(156 163 175)" }}
+                className="pro1h1"
+              >
+                Advice_Generator
+              </h1>
+              <div style={{ paddingTop: "2%" }}>
+                <a
+                  href="https://github.com/yalaju/Random-Advice-Generator"
+                  target={`_blank`}
+                >
+                  <button className="button">view code</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Homepage.css";
-import cv from '../images/resume.pdf'
+import cv from "../images/SAM'S RESUME 1.pdf"
 
 const Homepage = () => {
   return (
@@ -13,7 +13,7 @@ const Homepage = () => {
           }}
         >
           {" "}
-          <b>Hello I'm</b>{" "}
+          <b>Hello I'm</b>{" "}                                                                                                                                                                               
         </h3>
         <h1
           className="myname"

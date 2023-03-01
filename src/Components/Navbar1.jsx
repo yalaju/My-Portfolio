@@ -15,7 +15,7 @@ const Navbar1 = () => {
         className="navbar1"
         expand="lg"
       >
-        <Container>
+        <Container >
           <Navbar.Brand href="#home">
             {/* <a> */}
               {/* <img src={logo} alt="" /> */}
@@ -31,8 +31,8 @@ const Navbar1 = () => {
             {/* </a> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Navbar.Collapse id="basic-navbar-nav" >
+            <Nav className="me-auto" >
               <a href="#home" className="nav1">
                 {" "}
                 HOME{" "}

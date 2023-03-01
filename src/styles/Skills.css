@@ -1,13 +1,13 @@
 .skillsbody {
   background-color: rgba(0, 0, 0, 0.951);
   /* background-color: rgba(0, 0, 0, 0.88); */
-  padding: 10% 15% 15% 15%;
+  padding: 10% 15% 10% 15%;
   
 }
 
 @media (max-width: 414px) {
   .skillsbody { 
-      padding: 17% 15% 15% 15%;
+      padding: 19% 15% 15% 15%;
 
   }
 }
@@ -16,15 +16,16 @@
   /* border: 2px solid red;
   width: 11%;
   margin-top: -1%; */
+ 
 
   border: 2px solid red;
-    width: 15%;
+    width: 10%;
     margin-top: -12px;
 }
 
 @media (max-width: 414px) {
   .skillsline { 
-    width: 30%;
+    width: 40%;
   }
 }
 

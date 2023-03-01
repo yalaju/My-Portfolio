@@ -3,6 +3,13 @@
   padding: 10% 15%;
 }
 
+@media (max-width: 414px) {
+  .futterbody { 
+      padding: 18% 15% 15% 15%;
+
+  }
+}
+
 .futterline {
   /* border: 2px solid red;
   width: 11%;
