@@ -33,8 +33,10 @@ const Homepage = () => {
           <b>A Full-Stack Developer.</b>{" "}
         </h1>
         <p style={{ color: "rgb(136 146 176)", width: "100%" }}>
-          I'm a Full-Stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
+          I'm a Full-Stack developer specializing in building
+          {/* (and occasionally
+          designing) */}
+          exceptional digital experiences. Currently, I'm focused on
           building responsive web applications.
         </p>
         <a href="#project" style={{ textDecoration: "none" }}>

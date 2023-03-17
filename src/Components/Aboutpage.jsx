@@ -31,22 +31,23 @@ const Aboutpage = () => {
           className="about-cont"
           style={{ color: "rgb(156 163 175)", fontFamily: "-moz-initial" }}
         >
-          I am a Full-Stack Developer who loves making experiences that sticks.
-          My passion for learning and my ability to learn quickly enabled me
-          gain mastery over a wide range of design concepts and technologies. My
-          drive is simple:Build good websites that solves a problem. Also, build
-          websites that people would love to use and experience again. <br />{" "}
-          <br />I take pride in my work, and only deliver professional, clean,
-          polished products.
-          {/* Currently a student of the University of Lagos to
-          gain my Bachelors Degree in Applied Physics and Electronics, */}
-          I learnt Full-Stack Developer in Tech Studio Academy for five(5)
-          months where I gained my first certificate in web development. <br />{" "}
+          As a Full-Stack Developer, my goal is to create websites that provide
+          exceptional experiences. I'm constantly learning and enjoy mastering
+          new design concepts and technologies. What drives me is building
+          websites that solve problems and that people enjoy using repeatedly.{" "}
           <br />
-          Today, I have more than one(1) year of experience in I.T and Web
-          development. I pivoted into I.T because it was fascinating to see how
-          tech products could help individuals and organizations save time, save
-          money and expedite processes. It's simply magical!
+          <br />
+          When it comes to my work, I take great pride in delivering polished,
+          professional, and high-quality products. I began my journey as a
+          Full-Stack Developer at Tech Studio Academy, where I completed a
+          five-month program and received my first certificate in web
+          development.
+          <br />
+          <br />
+          With over a year of experience in I.T and Web development, I'm
+          passionate about the impact technology can have on individuals and
+          organizations. I find it fascinating how tech products can save time,
+          money, and streamline processes. It's truly magical!
         </p>
       </div>
 

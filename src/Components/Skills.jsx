@@ -121,7 +121,7 @@ const Skills = () => {
           <div
             style={{ paddingTop: "8px", paddingLeft:"20px" }}
           >
-            <p>phyton</p>
+            <p>Python</p>
           </div>
         </div>
       </div>

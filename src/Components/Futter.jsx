@@ -198,7 +198,7 @@ const Futter = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://wa.me/2348125338713"
+                    href="n     "
                     target={`_blank`}
                     style={{ textDecoration: "none" }}
                   >
