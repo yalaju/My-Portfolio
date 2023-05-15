@@ -1,5 +1,13 @@
+.futter01{
+  background-color: rgba(0, 0, 0, 0.951);
+    /* background-color: black; */
+}
+.futter0{
+  margin: 0 auto;
+  max-width: 2000px;
+}
 .futterbody {
-  background-color: rgb(0, 0, 0, 0.951);
+  /* background-color: rgb(0, 0, 0, 0.951); */
   padding: 10% 15%;
 }
 

@@ -1,3 +1,10 @@
+.about01{
+  background-color: black;
+}
+.about0{
+  margin: 0 auto;
+  max-width: 2000px;
+}
 .about-me {
   background-color: black;
   display: grid;

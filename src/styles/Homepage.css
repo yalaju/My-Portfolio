@@ -1,9 +1,20 @@
+.home01{
+  background-color: black;
+}
+.home0{
+  margin: 0 auto;
+  max-width: 2000px;
+}
 .homepag {
+  /* border: 3px solid red; */
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 4%;
     /* background-color: rgb(22, 21, 21); */
     background-color: black;
+    
+    
 }
 @media (max-width: 771px) {
   .homepag {
@@ -17,7 +28,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px) { 
   .myname {
     color: white;
   }

@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import logo from "../images/TradExpress.png";
 import "../styles/Navbar1.css";
 
 const Navbar1 = () => {
@@ -52,7 +50,7 @@ const Navbar1 = () => {
               <a href="#contact" className="nav5">
                 {" "}
                 CONTACT{" "}
-              </a>
+              </a> 
             </Nav>
           </Navbar.Collapse>
         </Container>
